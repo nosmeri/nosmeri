@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 YYJ13cnftjr = 0
@@ -21,4 +22,5 @@ async def on_message(message):
     if message.content.startswith("%머주명%"):
         await message.channel.send("/give boiled_pumpkin minecraft:player_head{SkullOwner:""닉네임""}")
 
-client.run("Njk0Mzg2ODQ0Njg2NjE0NTY5.XoLG0g.otBQ3LkZQJro5ERg8gQ9DqikSi4")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
