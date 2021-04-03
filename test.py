@@ -1,26 +1,54 @@
 import discord
-import os
+import time
 
 client = discord.Client()
-YYJ13cnftjr = 0
-yellow0519cnftjr = 0
-nosmericnftjr = 0
 
 @client.event
 async def on_ready():
+    print("login")
+    print(client.user.name)
     print(client.user.id)
     print("ready")
-    game = discord.Game("양씨는바보라고")
+    print("-----------------")
+    game = discord.Game("-도움말")
     await client.change_presence(status=discord.Status.online, activity=game)
-
+    
 @client.event
-
-#if message.author.bot:
-#   return None
-
 async def on_message(message):
-    if message.content.startswith("%머주명%"):
-        await message.channel.send("/give boiled_pumpkin minecraft:player_head{SkullOwner:""닉네임""}")
-
+    if message.content.startswith("-도움말"):
+        await message.channel.send("마떡 멍청이")
+    if message.content.startswith("-마떡"):
+        await message.channel.send("https://www.youtube.com/channel/UCv7LywcV784vgK-Pz2s5fZg")
+    if "ㅅㅂ" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "ㅄ" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "ㅂㅅ" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "ㅆㅂ" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "ㅈㄹ" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "시발" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "병신" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "븅신" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "씨발" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+    if "지랄" in message.content:
+        await message.delete()
+        await message.channel.send("욕하지 마세요")
+        
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
