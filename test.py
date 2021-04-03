@@ -1,5 +1,4 @@
 import discord
-import time
 
 client = discord.Client()
 
