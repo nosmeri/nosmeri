@@ -49,4 +49,4 @@ async def on_message(message):
         await message.delete()
         await message.channel.send("욕하지 마세요")
         
-client.run('ODIwMTczNTY3NDUwMTUyOTkw.YExUKA.03f2Qt5ZGR5yW8TvMAY3YROtQ5o')
+client.run('ODIwMTczNTY3NDUwMTUyOTkw.YExUKA._-PnMuAs8hrlPVLBKHiPoDxlvZk')
