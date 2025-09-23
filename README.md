@@ -1,4 +1,12 @@
-## Hi there 👋
+# Hi there 👋
+
+I'm a student developer from Korea interested in algorithms, security, AI, and embedded systems.
+
+## 🔗 Link
+
+- [Github](https://github.com/nosmeri)
+- [IoT Web](https://iot.jbsh.kro.kr)
+
 
 <!--
 **nosmeri/nosmeri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
