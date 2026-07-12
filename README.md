@@ -5,7 +5,6 @@ I'm a student developer from Korea interested in algorithms, security, AI, and e
 ## 🔗 Link
 
 - [Github](https://github.com/nosmeri)
-- [IoT Web](https://iot.jbsh.kro.kr)
 
 
 <!--
